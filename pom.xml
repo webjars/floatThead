@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>floatThead</artifactId>
-    <version>1.2.11-SNAPSHOT</version>
+    <version>1.2.12-SNAPSHOT</version>
     <name>jquery.floatThead</name>
     <description>WebJar for jquery.floatThead</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.2.10</upstream.version>
+        <upstream.version>1.2.12</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/mkoryak/floatThead/v${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
