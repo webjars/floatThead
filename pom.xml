@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>floatThead</artifactId>
-    <version>1.2.12-SNAPSHOT</version>
+    <version>1.2.12</version>
     <name>jquery.floatThead</name>
     <description>WebJar for jquery.floatThead</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/floatThead</url>
         <connection>scm:git:https://github.com/webjars/floatThead.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/floatThead.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>floatThead-1.2.12</tag>
     </scm>
     
     <dependencies>
@@ -76,11 +76,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/jquery.floatThead-slim.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/jquery.floatThead-slim.min.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/jquery.floatThead.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/jquery.floatThead.min.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/jquery.floatThead-slim.js" dest="${destDir}" />
+                                <get src="${upstream.url}/jquery.floatThead-slim.min.js" dest="${destDir}" />
+                                <get src="${upstream.url}/jquery.floatThead.js" dest="${destDir}" />
+                                <get src="${upstream.url}/jquery.floatThead.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
